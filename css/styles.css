@@ -225,14 +225,14 @@ button {
   padding-top: 44px;
   padding-bottom: 86px;
 }
-.section__head_botton-title {
+.section-title__lower-item {
   text-align: center;
   text-transform: uppercase;
   font-family: var(--main-font);
   font-size: 30px;
   font-weight: 700;
 }
-.section__head_top-title {
+.section-title__upper-item {
   display: flex;
   justify-content: center;
   font-family: var(--title-description-font);
@@ -241,7 +241,7 @@ button {
   text-transform: none;
   margin-bottom: 14px;
 }
-.section__title::after {
+.section-title::after {
   display: flex;
   width: 60px;
   content: "";
@@ -250,17 +250,17 @@ button {
   margin: auto;
   margin-top: 36px;
 }
-.section__title_about-position {
+.section-title_position {
   margin-bottom: 64px;
 }
 
-.about__list {
+.about-info__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.about__list-item {
+.about-info__item {
   width: 380px;
   padding-left: 82px;
   background-repeat: no-repeat;
@@ -268,7 +268,7 @@ button {
   background-position-y: 6px;
 }
 
-.about__list-item-head {
+.about-info__title {
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: 400;
@@ -277,7 +277,7 @@ button {
   margin-bottom: 10px;
 }
 
-.about__list-item-text {
+.about-info__text {
   font-family: var(--secondary-font);
   color: #999999;
   width: 280px;
@@ -286,30 +286,30 @@ button {
   line-height: 24px;
 }
 
-.about__list-item:not(:nth-child(1n + 4)) {
+.about-info__item:not(:nth-child(1n + 4)) {
   margin-bottom: 100px;
 }
 
-.about__list-item-alarm {
+.about-info__item_alarm {
   background-image: url(../img/icons/ALARM.svg);
 }
 
-.about__list-item-line_graph {
+.about-info__item_line-graph {
   background-image: url(../img/icons/LINE_GRAPH.svg);
 }
 
-.about__list-item-computer {
+.about-info__item_computer {
   background-image: url(../img/icons/COMPUTER.svg);
 }
 
-.about__list-item-book {
+.about-info__item_book {
   background-image: url(../img/icons/BOOK.svg);
 }
-.about__list-item-home {
+.about-info__item_home {
   background-image: url(../img/icons/HOME.svg);
 }
 
-.about__list-item-image {
+.about-info__item_image {
   background-image: url(../img/icons/IMAGE.svg);
 }
 
