@@ -315,9 +315,11 @@ button {
 
 /* team decorate */
 .team {
-  padding-bottom: 50px;
+  padding-bottom: 84px;
 }
-
+.section-title_position-team {
+  margin-bottom: 40px;
+}
 .team-description__wripper {
   max-width: 940px;
   margin: 0 auto;
@@ -433,7 +435,7 @@ button {
 .footer__contact-form {
   display: flex;
 }
-.footer__contact-form_input {
+.footer-contact-form__input {
   width: 230px;
   height: 40px;
   background-color: #ffffff;
@@ -443,10 +445,10 @@ button {
   font-style: italic;
   padding-left: 12px;
 }
-.footer__contact-form_input:required:focus {
+.footer-contact-form__input:required:focus {
   outline: none;
 }
-.footer__contact-form__btn {
+.footer-contact-form__input-btn {
   width: 150px;
   height: 40px;
   background-color: #95e1d3;
@@ -458,9 +460,9 @@ button {
   border: none;
   cursor: pointer;
 }
-.footer__contact-form_input:required:focus:valid:not(:placeholder-shown) {
+.footer-contact-form__input:required:focus:valid:not(:placeholder-shown) {
   border-color: green;
 }
-.footer__contact-form_input:required:focus:invalid:not(:placeholder-shown) {
+.footer-contact-form__input:required:focus:invalid:not(:placeholder-shown) {
   border-color: red;
 }
