@@ -141,6 +141,7 @@ button {
     ),
     url(../img/Header-bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   color: var(--main-color);
   padding-bottom: 226px;
@@ -216,7 +217,7 @@ button {
 .navigation-btn_item-svg {
   fill: var(--main-color);
 }
-.header__description {
+.description {
   font-family: var(--title-description-font);
   font-size: 72px;
   font-weight: 400;
@@ -491,7 +492,7 @@ button {
 
   transition: all 0.2s linear;
 }
-.overlay-list__item-link-svg {
+.social-svg {
   fill: rgb(243, 129, 129);
   width: 32px;
   height: 32px;
@@ -512,7 +513,7 @@ button {
 .overlay-list__item-link:hover {
   background-color: rgb(243, 129, 129);
 }
-.overlay-list__item-link:hover .overlay-list__item-link-svg {
+.overlay-list__item-link:hover .social-svg {
   fill: #ffffff;
 }
 /* Footer decorate */
@@ -544,7 +545,7 @@ button {
   display: -ms-flexbox;
   display: flex;
 }
-.footer-contact-form__input {
+.contact-form__input {
   width: 230px;
   height: 40px;
   background-color: #ffffff;
@@ -554,10 +555,10 @@ button {
   font-style: italic;
   padding-left: 12px;
 }
-.footer-contact-form__input:required:focus {
+.contact-form__input:required:focus {
   outline: none;
 }
-.footer-contact-form__input-btn {
+.contact-form__input-btn {
   width: 150px;
   height: 40px;
   background-color: #95e1d3;
@@ -569,9 +570,9 @@ button {
   border: none;
   cursor: pointer;
 }
-.footer-contact-form__input:required:focus:valid:not(:placeholder-shown) {
+.contact-form__input:required:focus:valid:not(:placeholder-shown) {
   border-color: green;
 }
-.footer-contact-form__input:required:focus:invalid:not(:placeholder-shown) {
+.contact-form__input:required:focus:invalid:not(:placeholder-shown) {
   border-color: red;
 }
